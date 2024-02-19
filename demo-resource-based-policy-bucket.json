@@ -1,0 +1,18 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+      {
+        "Sid": "Statement1",
+        "Effect": "Deny",
+        "Principal": {
+            "AWS": "arn:aws:iam::592200933211:user/iamuser1"
+         },
+      
+         "Action": "S3:*",
+         "Resource": [
+             "arn:aws:s3:::demo-resource-based-policy-bucket",
+             "arn:aws:s3:::demo-resource-based-policy-bucket/*"
+            ]
+        }
+    ]
+} 
