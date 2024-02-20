@@ -1,1 +1,1 @@
-# Leaninig-AWS-IAM
+# Learninig-AWS-IAM
