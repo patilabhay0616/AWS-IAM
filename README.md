@@ -1,4 +1,4 @@
-##AWS-IAM
+AWS-IAM
 
 ## Connect to EC2 ssh using certificate
 - `ssh -i <path_to_pem_file> ec2-user@<public_ip_address>`
